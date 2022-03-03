@@ -1,0 +1,134 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  margin: 50px auto;
+  width: 1400px;
+  height: 800px;
+  background-color: #f1f2f6;
+}
+.slide {
+  width: 60%;
+  height: 100%;
+}
+.slide-img {
+  max-width: 100%;
+  height: 800px;
+}
+.slick-prev,
+.slick-arrow,
+.slick-next {
+  display: none !important;
+}
+#slick-slide-control00 {
+  position: relative;
+  top: -15px;
+}
+#slick-slide-control02 {
+  position: relative;
+  bottom: -15px;
+}
+#slick-slide-control00,
+#slick-slide-control01,
+#slick-slide-control02 {
+  width: 20px;
+  background: white;
+  height: 5px;
+  font-size: 0;
+  border: none;
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+#slick-slide-control00:hover,
+#slick-slide-control01:hover,
+#slick-slide-control02:hover {
+  background: gray;
+  transition-duration: 0.3s;
+}
+.slick-dots {
+  list-style: none;
+  position: absolute;
+  bottom: 25px;
+  left: -10px;
+}
+.content {
+  width: 40%;
+  height: 100%;
+}
+.formularz {
+  position: relative;
+  bottom: -105px;
+  margin-left: 150px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.formularz input {
+  height: 25px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 2px 2px 2px black;
+}
+.formularz label {
+  font-size: 24px;
+  text-shadow: 1px 0px 1px black;
+}
+.form-button {
+  position: relative;
+  font-size: 18px;
+  right: -50px;
+  width: 150px;
+  height: 50px !important;
+  border-radius: 12px;
+  background: blue;
+  color: white;
+  border: none;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.form-button:hover {
+  border-radius: 24px;
+  box-shadow: 6px 6px 6px black;
+  transition-duration: 0.5s;
+}
+.links {
+  position: relative;
+  bottom: -160px;
+  margin-left: 100px;
+}
+.links-item {
+  margin-left: 50px;
+}
+a {
+  font-size: 18px;
+  color: #000;
+  text-shadow: 0px 0px 2px black;
+  text-decoration: none;
+  transition: all ease-in-out 0.5s;
+}
+a:hover {
+  font-size: 19px;
+  text-decoration: underline 1px black;
+  transition-duration: 0.5s;
+}
+.social {
+  position: relative;
+  bottom: -280px;
+}
+.social-item {
+  position: relative;
+  top: -10px;
+  color: blue;
+}
+.text {
+  position: relative;
+  width: 320px;
+  text-shadow: 0px 0px 3px black;
+  text-align: center;
+  border: 8px double black;
+  margin-left: 110px;
+  bottom: -225px;
+}
